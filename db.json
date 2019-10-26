@@ -1,14 +1,107 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "investor":[
+    {
+      "_id" :  "5d9aa6aa357dde422446b297" ,
+      "createdOn" : "01/01/2019",
+      "email" : "email@gmail.com",
+      "followedBusiness" : [
+        "business1",
+        "business2"
+      ],
+      "loginHistory" : {
+        "lastLogin" : "05/05/2019"
+      },
+      "name" : "Investor",
+      "password" : "password",
+      "passwordHistory" : {
+        "prevPassword" : "prevPass",
+        "changedOn" : "12/12/2018"
+      }
+    },
+    {
+      "_class" : "com.ict3103back.ssd.Models.Investor",
+      "_id" :  "5daad6fac5c6dd074494fef3" ,
+      "createdOn" :  "2019-10-19T17:27:22.473+08:00" ,
+      "email" : "newInvestor@email.com",
+      "loginHistory" : [
+        {
+          "lastLogin" :  "2019-10-19T17:27:22.473+08:00" 
+        }
+      ],
+      "name" : "investor",
+      "password" : "string"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "company":[
+    {
+      "_class" : "com.ict3103back.ssd.Models.Company",
+      "_id" :  "5da052a79319911f100e17f5" ,
+      "companyAddress" : "string",
+      "companyEmail" : "string",
+      "companyName" : "string",
+      "companyNumber" : "string",
+      "companyWebsite" : "string",
+      "createdOn" :  "2019-10-11T00:00:00.000+08:00" ,
+      "email" : "email@example.com",
+      "followerAmt" :  5 ,
+      "loginHistory" : [
+         "2019-10-11T00:00:00.000+08:00" 
+      ],
+      "name" : "string",
+      "password" : "string",
+      "passwordHistory" : [
+        {
+          "prevPassword" : "string",
+          "changedOn" :  "2019-10-11T00:00:00.000+08:00" 
+        }
+      ],
+      "proposal" : [
+        {
+          "proposalId" :  0 ,
+          "proposalTitle" : "string",
+          "proposalDesc" : "string",
+          "picture" : "{ }",
+          "numOfRaters" :  0 ,
+          "avgRating" : 0,
+          "createdOn" :  "2019-10-11T00:00:00.000+08:00" ,
+          "editedOn" :  "2019-10-11T00:00:00.000+08:00" ,
+          "companyName" : "string"
+        }
+      ]
+    },
+    {
+      "_class" : "com.ict3103back.ssd.Models.Company",
+      "_id" :  "5da0bd30f008183be89f9c8b" ,
+      "companyAddress" : "string",
+      "companyEmail" : "string",
+      "companyName" : "string",
+      "companyNumber" : "string",
+      "companyWebsite" : "string",
+      "createdOn" :  "2019-10-12T01:34:40.959+08:00" ,
+      "email" : "newemail@example.com",
+      "followerAmt" :  1 ,
+      "loginHistory" : [ ],
+      "name" : "string",
+      "password" : "string",
+      "passwordHistory" : [ ],
+      "proposal" : [ ]
+    },
+    {
+      "_class" : "com.ict3103back.ssd.Models.Company",
+      "_id" :  "5da4ae610bb7b43e642b171a" ,
+      "companyAddress" : "string",
+      "companyEmail" : "string",
+      "companyName" : "string",
+      "companyNumber" : "string",
+      "companyWebsite" : "string",
+      "createdOn" :  "2019-10-15T01:20:32.982+08:00" ,
+      "email" : "string",
+      "followerAmt" :  0 ,
+      "loginHistory" : [ ],
+      "name" : "string",
+      "password" : "string",
+      "passwordHistory" : [ ],
+      "proposal" : [ ]
+    }
+  ]
 }
