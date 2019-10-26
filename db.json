@@ -1,7 +1,7 @@
 {
   "investor":[
     {
-      "_id" :  "5d9aa6aa357dde422446b297" ,
+      "id" :  "5d9aa6aa357dde422446b297" ,
       "createdOn" : "01/01/2019",
       "email" : "email@gmail.com",
       "followedBusiness" : [
@@ -20,7 +20,7 @@
     },
     {
       "_class" : "com.ict3103back.ssd.Models.Investor",
-      "_id" :  "5daad6fac5c6dd074494fef3" ,
+      "id" :  "5daad6fac5c6dd074494fef3" ,
       "createdOn" :  "2019-10-19T17:27:22.473+08:00" ,
       "email" : "newInvestor@email.com",
       "loginHistory" : [
@@ -35,7 +35,7 @@
   "company":[
     {
       "_class" : "com.ict3103back.ssd.Models.Company",
-      "_id" :  "5da052a79319911f100e17f5" ,
+      "id" :  "5da052a79319911f100e17f5" ,
       "companyAddress" : "string",
       "companyEmail" : "string",
       "companyName" : "string",
@@ -71,7 +71,7 @@
     },
     {
       "_class" : "com.ict3103back.ssd.Models.Company",
-      "_id" :  "5da0bd30f008183be89f9c8b" ,
+      "id" :  "5da0bd30f008183be89f9c8b" ,
       "companyAddress" : "string",
       "companyEmail" : "string",
       "companyName" : "string",
@@ -88,7 +88,7 @@
     },
     {
       "_class" : "com.ict3103back.ssd.Models.Company",
-      "_id" :  "5da4ae610bb7b43e642b171a" ,
+      "id" :  "5da4ae610bb7b43e642b171a" ,
       "companyAddress" : "string",
       "companyEmail" : "string",
       "companyName" : "string",
